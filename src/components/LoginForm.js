@@ -35,7 +35,7 @@ class LoginForm extends Component {
 
   renderButton() {
     if(this.state.loading) {
-      return <Spinner size="small" />
+      return <Spinner size="small" />;
     }
 
     return (
@@ -77,14 +77,14 @@ class LoginForm extends Component {
       </Card>
     );
   }
- }
+}
 
- const styles = {
+const styles = {
   errorTextStyle: {
     fontSize: 20,
     alignSelf: 'center',
     color: 'red'
   }
- };
+};
 
  export default LoginForm;
